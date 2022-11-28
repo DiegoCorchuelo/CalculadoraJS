@@ -4,4 +4,4 @@ Click aquí para probar calculadora => **[Calculadora](https://diegocorchuelo.gi
 
 ## Mirá la calculadora: 
  
- !calculadora](./images/Calculadora_Photo.png)
+ ![calculadora](./images/Calculadora_Photo.png)
