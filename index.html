@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/favicon.png">
+</head>
+
+    <h1 class="header">Calculadora</h1>
+
+
+    <div class="calculadora">
+        <div >
+            <input id="input" class="input" type="text" placeholder="0"> 
+        </div>
+        
+
+        <div class="botones">
+            
+            
+        </div>
+        <div class="botones">
+            <button class='btn-n' onclick="boton(7)">7</button>
+            <button class='btn-n' onclick="boton(8)">8</button>
+            <button class='btn-n' onclick="boton(9)">9</button>
+            <button class='btn-o' onclick="boton('+')">+</button>
+        </div>
+        <div class="botones">
+            <button class='btn-n' onclick="boton(4)">4</button>
+            <button class='btn-n' onclick="boton(5)">5</button>
+            <button class='btn-n' onclick="boton(6)">6</button>
+            <button class='btn-o' onclick="boton('-')">-</button>
+        </div>
+        <div class="botones">
+            <button class='btn-n' onclick="boton(1)">1</button>
+            <button class='btn-n' onclick="boton(2)">2</button>
+            <button class='btn-n' onclick="boton(3)">3</button>
+            <button class='btn-o' onclick="boton('*')">x</button>
+        </div>
+        <div class="botones">
+            <button class='btn-n' onclick="boton(0)">0</button>
+            <button class='btn' onclick="reset()">C</button>
+            <button class='btn' onclick='total()'>=</button>
+            <button class='btn-o' onclick="boton('/')">/</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
