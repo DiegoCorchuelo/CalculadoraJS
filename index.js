@@ -15,3 +15,8 @@ function total() {
         document.getElementById('input').value = '';
     }
 }
+
+function raiz() {
+    let raiz = document.getElementById('input').value;
+    document.getElementById('input').value = Math.sqrt(raiz);
+}

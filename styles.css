@@ -19,7 +19,7 @@ body {
     background-color: #000000;
     margin-top: 3.125rem;
     border-radius: 1.5625rem;
-    height: 31.25rem;
+    height: 600px;
     width: 21.875rem;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ button:active{
 
 .input {
     width: 18.75rem;
-    height: 4.375rem;
+    height: 5rem;
     border-radius: 0.625rem;
     text-align: end;
     font-size: 3.5rem;
@@ -59,6 +59,15 @@ button:active{
     color: #ffffff;
     overflow: auto;
     border: 0;
+    margin: 10px;
+}
+
+.btn-n-a {
+    height: 66px;
+    width: 66px;
+    background-color: #ff9b00;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 .btn-n {
@@ -69,6 +78,7 @@ button:active{
 .btn-o {
     background-color: #ff9b00;
     color: #ffffff;
+    font-size: 15px;
 }
 
 .btn {
